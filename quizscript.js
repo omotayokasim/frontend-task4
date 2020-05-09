@@ -2,9 +2,9 @@
 
 
 
-const questionNumberSpan=document.querySelctor(".question-num-value");
-const totalQuestionSpan=document.querySelctor(".total-question");
-const question=document.querySelctor(".question");
+const questionNumberSpan=document.querySelector(".question-num-value");
+const totalQuestionSpan=document.querySelector(".total-question");
+const question=document.querySelector(".question");
 const op1=document.querySelector(".option1");
 const op2=document.querySelector(".option2");
 const op3=document.querySelector(".option3");
