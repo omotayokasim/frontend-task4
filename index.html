@@ -18,21 +18,16 @@
     <div class = "question">
     </div>
     <div class = "options">
-        <div id="0" class = "option1">  </div>
-        <div id="1" class = "option2">  </div>
-        <div id="2" class = "option3">  </div>
-        <div id="3" class = "option4">  </div>
-        <div id="4" class = "option5">  </div>
+        <div id="0" class = "option1" onclick = "check(this)"></div>
+        <div id="1" class = "option2" onclick = "check(this)"></div>
+        <div id="2" class = "option3" onclick = "check(this)"></div>
+        <div id="3" class = "option4" onclick = "check(this)"></div>
     </div>
     <div class = "button">
-        <button type = "button" class = "btn"> Next </button>
+        <button type = "button" class = "btn" onclick = "next()"> Next </button>
     </div>
     <div class = "answers-tracker">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+
 
     </div>
 
@@ -41,6 +36,19 @@
 
 
 </div>
+
+<div class = "quiz-over">
+    <div class = "box">
+
+    <h1> End of quiz!<br>
+        You answered <span class = "correct-answers"></span> 
+        Out Of <span class = "total-question2"></span> Questions Correctly! <br>
+        That's <span class = "percentage"></span>
+    </h1>
+    <button type = "button" onclick = "tryAgain()"> Try Again </button>
+</div>
+</div>
+
 <script src = 'quizscript.js'></script>
 </body>
 </html>
